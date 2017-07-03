@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_dismiss">Dismiss</string>
+    <string name="not_yet_implemented">Not yet implemented</string>
+    <string name="validation_error_boolean">This field must be a boolean.</string>
+    <string name="validation_error_double">This field must be a floating point number.</string>
+    <string name="validation_error_email">This field contains an invalid email address.</string>
+    <string name="validation_error_equals">This field must be equal to \"%s\".</string>
+    <string name="validation_error_equals_field">This field must be equal to %s.</string>
+    <string name="validation_error_integer">This field must be an integer.</string>
+    <string name="validation_error_required">This field is required.</string>
+</resources>
