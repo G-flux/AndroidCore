@@ -156,6 +156,13 @@ public class CalendarUtils {
         CalendarUtils.setFields(calendar, 0, Calendar.HOUR, Calendar.MINUTE, Calendar.SECOND, Calendar.MILLISECOND);
     }
 
+    public static Calendar getMidnight() {
+        Calendar midnight = Calendar.getInstance();
+        setMidnight(midnight);
+
+        return midnight;
+    }
+
     public static void transferFields(Calendar from, Calendar to, int... fields) {
         if (from == null) {
             from = Calendar.getInstance();
